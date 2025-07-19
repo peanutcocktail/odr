@@ -1,0 +1,22 @@
+{
+  "run": [
+    {
+      "method": "shell.run",
+      "params": {
+        "message": [
+          "git clone https://github.com/langchain-ai/open_deep_research app"
+        ]
+      }
+    },
+    {
+      "method": "shell.run",
+      "params": {
+        "venv": "venv",
+        "path": "app",
+        "chain": true,
+        "input": null,
+        "message": []
+      }
+    }
+  ]
+}
