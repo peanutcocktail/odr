@@ -1,0 +1,8 @@
+{
+  "title": "Open Deep Research",
+  "description": "A fully open source deep research agent that works across many model providers, search tools, and MCP servers. Perform comprehensive research using AI-powered agents with LangGraph Studio interface.",
+  "icon": "icon.png",
+  "author": "LangChain AI",
+  "tags": ["research", "ai", "agent", "langchain", "langgraph"],
+  "version": "1.0.0"
+}

@@ -6,13 +6,12 @@
       "params": {
         "path": "app",
         "venv": "venv",
-        "chain": true,
-        "env": {},
-        "input": null,
-        "message": [],
+        "message": [
+          "uvx --refresh --from \"langgraph-cli[inmem]\" --with-editable . --python 3.11 langgraph dev --allow-blocking --no-browser"
+        ],
         "on": [
           {
-            "event": "/http://\\S+/",
+            "event": "/🚀 API: (http://127\\.0\\.0\\.1:\\d+)/",
             "done": true
           }
         ]

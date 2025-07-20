@@ -13,9 +13,19 @@
       "params": {
         "venv": "venv",
         "path": "app",
-        "chain": true,
-        "input": null,
-        "message": []
+        "message": [
+          "uv pip install -e ."
+        ]
+      }
+    },
+    {
+      "method": "shell.run",
+      "params": {
+        "venv": "venv",
+        "path": "app",
+        "message": [
+          "uv pip install \"langgraph-cli[inmem]\""
+        ]
       }
     }
   ]
