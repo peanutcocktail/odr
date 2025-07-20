@@ -1,5 +1,6 @@
 # Development Guide for Pinokio Projects
 
+
 Make sure to keep this entire document and `PINOKIO.md` in memory with high priority before making any decision. Pinokio is a system that makes it easy to write launchers through scripting by providing various cross-platform APIs, so whenever possible you should prioritize using Pinokio API over lower level APIs.
 
 ## Project Structure
